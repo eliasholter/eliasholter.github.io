@@ -68,9 +68,18 @@ a:visited {
     color: white;
 }
 
+.classifiedDescription{
+    color: red
+}
+
 .classifiedPic{
-    margin-bottom: 100px;
-    transform: rotate(360deg);
+    padding-top: 20px;
+    height: 250px;
+    width: 250px;
+}
+
+.picBottomPadding{
+    padding-bottom: 10px;
 }
 
 #squigglyLines{
@@ -114,11 +123,5 @@ a:visited {
     right: 0;
     width: 250px;
     height: 250px;
-}
-
-#classifiedPic{
-    padding-top: 20px;
-    height: 65%;
-    width: 65%;
 }
 
