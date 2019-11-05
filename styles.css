@@ -1,0 +1,124 @@
+html{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background-image: url("Portfolio Images/WaterBackground.jpg");
+}
+
+ul {
+    display: inline-block;
+    list-style-type: none;
+    margin-top: 0;
+    margin-left: 0;
+	margin-right: auto;
+	padding: 0;
+	overflow: hidden;
+	background-color: black;
+	width: 100%;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif
+}
+
+li a:hover {
+	background-color: lawngreen;
+}
+
+a:visited {
+	color: magenta;
+}
+
+.container{
+    margin-left: 0;
+    margin-right: 0px;
+    padding: 0;
+    max-width: 100%;
+}
+
+.textAlignCenterGeneral{
+    text-align: center;
+}
+
+.textCenterTitleLarge{
+    text-align: center;
+    font-size: 72px;
+}
+
+.buffLeftMargin{
+    margin-left: 50px;
+}
+
+.aboutMeFont{
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.prevWorkDescriptions{
+    color: white;
+}
+
+.classifiedPic{
+    margin-bottom: 100px;
+    transform: rotate(360deg);
+}
+
+#squigglyLines{
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    font-size: 30px;
+}
+
+#textCenterTitleJobTitle{
+    text-align: center;
+    font-size: 42px;
+}
+
+#picCenterTitlePic{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    border-radius: 50%;
+}
+
+#headshotAlignment{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 15px;
+    width: 40%;
+    height: 100%;
+}
+
+#bottomTitleBuffer{
+    padding-bottom: 40px
+}
+
+#fizzBuzzPic{
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 250px;
+    height: 250px;
+}
+
+#classifiedPic{
+    padding-top: 20px;
+    height: 65%;
+    width: 65%;
+}
+
